@@ -65,7 +65,7 @@ npm install durable-functions
 ```javascript
 const df = require("durable-functions");
 df.app.activity("myActivity", {
-    handler: async function (context) {
+    handler: async function (input, context) {
         // your code here
     },
 });
